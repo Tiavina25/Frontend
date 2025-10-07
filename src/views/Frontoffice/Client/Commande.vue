@@ -53,7 +53,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import axios from 'axios'
-import Navbar from '@/components/frontoffice/NavbarFront.vue'
+import Navbar from '@/components/Frontoffice/NavbarFront.vue'
 
 const commande = ref([])
 const typesCommande = ref([])
