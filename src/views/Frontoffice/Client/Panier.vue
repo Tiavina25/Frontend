@@ -38,7 +38,7 @@
   <script setup>
   import { ref, computed, onMounted } from 'vue'
   import { useRouter } from 'vue-router'
-  import Navbar from '@/components/frontoffice/NavbarFront.vue'
+  import Navbar from '@/components/Frontoffice/NavbarFront.vue'
   
   const router = useRouter()
   const panier = ref([])
